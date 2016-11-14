@@ -4,21 +4,36 @@ mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	
+	var primerValor = parseInt(document.getElementById('numeroUno').value);
+	var segundoValor = parseInt(document.getElementById('numeroDos').value);
+	var resultado = primerValor+segundoValor;
+	alert("La suma es: "+resultado);
+
 }
 
 function restar()
 {
+	var primerValor = parseInt(document.getElementById('numeroUno').value);
+	var segundoValor = parseInt(document.getElementById('numeroDos').value);
+	var resultado = primerValor-segundoValor;
+	alert("La resta es: "+resultado);
 	
 }
 
 function multiplicar()
 { 
+	var primerValor = parseInt(document.getElementById('numeroUno').value);
+	var segundoValor = parseInt(document.getElementById('numeroDos').value);
+	var resultado = primerValor*segundoValor;
+	alert("La multiplicacion es: "+resultado);
 	
 }
 
 function dividir()
 {
+	var primerValor = parseInt(document.getElementById('numeroUno').value);
+	var segundoValor = parseInt(document.getElementById('numeroDos').value);	var resultado = primerValor/segundoValor;
+	alert("La division es: "+resultado);
 	
 }
 
