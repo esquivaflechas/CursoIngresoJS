@@ -10,5 +10,13 @@ function Mostar()
 	alert("Usted se llama "+miNombre +" y tiene "+ miEdad+" anios");
 
 
+	/*
+	Esto es para mostrar mensajes en la consola de la vista desarrollador.
+	
+	var unaVariable = "datos";
+	console.log("primer mensaje");
+	console.info("mensaje: ",unaVariable);
+	
+	*/
 }
 

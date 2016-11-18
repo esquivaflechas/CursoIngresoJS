@@ -13,8 +13,8 @@ function sumar()
 
 function restar()
 {
-	var primerValor = parseInt(document.getElementById('numeroUno').value);
-	var segundoValor = parseInt(document.getElementById('numeroDos').value);
+	var primerValor = document.getElementById('numeroUno').value;
+	var segundoValor = document.getElementById('numeroDos').value;
 	var resultado = primerValor-segundoValor;
 	alert("La resta es: "+resultado);
 	
@@ -22,8 +22,8 @@ function restar()
 
 function multiplicar()
 { 
-	var primerValor = parseInt(document.getElementById('numeroUno').value);
-	var segundoValor = parseInt(document.getElementById('numeroDos').value);
+	var primerValor = document.getElementById('numeroUno').value;
+	var segundoValor = document.getElementById('numeroDos').value;
 	var resultado = primerValor*segundoValor;
 	alert("La multiplicacion es: "+resultado);
 	
@@ -31,8 +31,8 @@ function multiplicar()
 
 function dividir()
 {
-	var primerValor = parseInt(document.getElementById('numeroUno').value);
-	var segundoValor = parseInt(document.getElementById('numeroDos').value);	var resultado = primerValor/segundoValor;
+	var primerValor = document.getElementById('numeroUno').value;
+	var segundoValor =document.getElementById('numeroDos').value;	var resultado = primerValor/segundoValor;
 	alert("La division es: "+resultado);
 	
 }
