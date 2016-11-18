@@ -8,14 +8,14 @@ function Rectangulo ()
 {
 	var largo = parseInt(document.getElementById('Largo').value);
 	var ancho = parseInt(document.getElementById('Ancho').value);
-	var suma = (largo+ancho)*3;
+	var suma = (largo*2+ancho*2)*3;
 	alert("Se deben compar "+suma+" metros de alambre");
 
 }
 function Circulo () 
 {
 	var radio = parseInt(document.getElementById('Radio').value);
-	var suma = radio*3
+	var suma = (3.14*(radio+radio))*3;
 	alert("Se deben comprar "+suma+" metros de alambre");
 	
 }
